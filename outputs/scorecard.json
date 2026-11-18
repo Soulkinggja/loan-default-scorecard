@@ -1,0 +1,774 @@
+{
+  "features": [
+    {
+      "name": "grade",
+      "kind": "categorical",
+      "edges": [],
+      "levels": [
+        "B",
+        "C",
+        "A",
+        "D",
+        "E"
+      ],
+      "bins": [
+        {
+          "code": "A",
+          "label": "A",
+          "lo": null,
+          "hi": null,
+          "points": 88,
+          "default_rate_pct": 0.95,
+          "loans": 1475
+        },
+        {
+          "code": "B",
+          "label": "B",
+          "lo": null,
+          "hi": null,
+          "points": 63,
+          "default_rate_pct": 2.38,
+          "loans": 2223
+        },
+        {
+          "code": "C",
+          "label": "C",
+          "lo": null,
+          "hi": null,
+          "points": 37,
+          "default_rate_pct": 5.78,
+          "loans": 1990
+        },
+        {
+          "code": "D",
+          "label": "D",
+          "lo": null,
+          "hi": null,
+          "points": 22,
+          "default_rate_pct": 9.6,
+          "loans": 927
+        },
+        {
+          "code": "E",
+          "label": "E",
+          "lo": null,
+          "hi": null,
+          "points": 13,
+          "default_rate_pct": 12.57,
+          "loans": 517
+        },
+        {
+          "code": "other",
+          "label": "other",
+          "lo": null,
+          "hi": null,
+          "points": -2,
+          "default_rate_pct": 20.0,
+          "loans": 260
+        }
+      ]
+    },
+    {
+      "name": "open_il_12m",
+      "kind": "numeric",
+      "edges": [
+        -Infinity,
+        1.0,
+        Infinity
+      ],
+      "levels": [],
+      "bins": [
+        {
+          "code": "b0",
+          "label": "up to 1",
+          "lo": -Infinity,
+          "hi": 1.0,
+          "points": 44,
+          "default_rate_pct": 4.19,
+          "loans": 6092
+        },
+        {
+          "code": "b1",
+          "label": "over 1",
+          "lo": 1.0,
+          "hi": Infinity,
+          "points": 28,
+          "default_rate_pct": 10.23,
+          "loans": 1300
+        }
+      ]
+    },
+    {
+      "name": "verification_status",
+      "kind": "categorical",
+      "edges": [],
+      "levels": [
+        "Source_Verified",
+        "Not_Verified",
+        "Verified"
+      ],
+      "bins": [
+        {
+          "code": "Not_Verified",
+          "label": "Not_Verified",
+          "lo": null,
+          "hi": null,
+          "points": 44,
+          "default_rate_pct": 3.4,
+          "loans": 2592
+        },
+        {
+          "code": "Source_Verified",
+          "label": "Source_Verified",
+          "lo": null,
+          "hi": null,
+          "points": 40,
+          "default_rate_pct": 5.03,
+          "loans": 2824
+        },
+        {
+          "code": "Verified",
+          "label": "Verified",
+          "lo": null,
+          "hi": null,
+          "points": 36,
+          "default_rate_pct": 8.0,
+          "loans": 1976
+        }
+      ]
+    },
+    {
+      "name": "open_il_24m",
+      "kind": "numeric",
+      "edges": [
+        -Infinity,
+        1.0,
+        2.0,
+        3.0,
+        Infinity
+      ],
+      "levels": [],
+      "bins": [
+        {
+          "code": "b0",
+          "label": "up to 1",
+          "lo": -Infinity,
+          "hi": 1.0,
+          "points": 39,
+          "default_rate_pct": 3.95,
+          "loans": 4233
+        },
+        {
+          "code": "b1",
+          "label": "1 to 2",
+          "lo": 1.0,
+          "hi": 2.0,
+          "points": 40,
+          "default_rate_pct": 5.37,
+          "loans": 1491
+        },
+        {
+          "code": "b2",
+          "label": "2 to 3",
+          "lo": 2.0,
+          "hi": 3.0,
+          "points": 40,
+          "default_rate_pct": 7.46,
+          "loans": 831
+        },
+        {
+          "code": "b3",
+          "label": "over 3",
+          "lo": 3.0,
+          "hi": Infinity,
+          "points": 41,
+          "default_rate_pct": 9.44,
+          "loans": 837
+        }
+      ]
+    },
+    {
+      "name": "all_util",
+      "kind": "numeric",
+      "edges": [
+        -Infinity,
+        44.0,
+        57.0,
+        67.0,
+        77.0,
+        Infinity
+      ],
+      "levels": [],
+      "bins": [
+        {
+          "code": "b0",
+          "label": "up to 44",
+          "lo": -Infinity,
+          "hi": 44.0,
+          "points": 41,
+          "default_rate_pct": 3.67,
+          "loans": 1580
+        },
+        {
+          "code": "b1",
+          "label": "44 to 57",
+          "lo": 44.0,
+          "hi": 57.0,
+          "points": 41,
+          "default_rate_pct": 3.77,
+          "loans": 1510
+        },
+        {
+          "code": "b2",
+          "label": "57 to 67",
+          "lo": 57.0,
+          "hi": 67.0,
+          "points": 40,
+          "default_rate_pct": 5.38,
+          "loans": 1487
+        },
+        {
+          "code": "b3",
+          "label": "67 to 77",
+          "lo": 67.0,
+          "hi": 77.0,
+          "points": 39,
+          "default_rate_pct": 6.74,
+          "loans": 1351
+        },
+        {
+          "code": "b4",
+          "label": "over 77",
+          "lo": 77.0,
+          "hi": Infinity,
+          "points": 39,
+          "default_rate_pct": 6.97,
+          "loans": 1464
+        }
+      ]
+    },
+    {
+      "name": "inq_fi",
+      "kind": "numeric",
+      "edges": [
+        -Infinity,
+        1.0,
+        2.0,
+        Infinity
+      ],
+      "levels": [],
+      "bins": [
+        {
+          "code": "b0",
+          "label": "up to 1",
+          "lo": -Infinity,
+          "hi": 1.0,
+          "points": 42,
+          "default_rate_pct": 4.6,
+          "loans": 5742
+        },
+        {
+          "code": "b1",
+          "label": "1 to 2",
+          "lo": 1.0,
+          "hi": 2.0,
+          "points": 39,
+          "default_rate_pct": 5.47,
+          "loans": 823
+        },
+        {
+          "code": "b2",
+          "label": "over 2",
+          "lo": 2.0,
+          "hi": Infinity,
+          "points": 32,
+          "default_rate_pct": 9.55,
+          "loans": 827
+        }
+      ]
+    },
+    {
+      "name": "inq_last_6mths",
+      "kind": "numeric",
+      "edges": [
+        -Infinity,
+        1.0,
+        Infinity
+      ],
+      "levels": [],
+      "bins": [
+        {
+          "code": "b0",
+          "label": "up to 1",
+          "lo": -Infinity,
+          "hi": 1.0,
+          "points": 41,
+          "default_rate_pct": 4.67,
+          "loans": 6443
+        },
+        {
+          "code": "b1",
+          "label": "over 1",
+          "lo": 1.0,
+          "hi": Infinity,
+          "points": 32,
+          "default_rate_pct": 9.17,
+          "loans": 949
+        }
+      ]
+    },
+    {
+      "name": "inq_last_12m",
+      "kind": "numeric",
+      "edges": [
+        -Infinity,
+        1.0,
+        2.0,
+        4.0,
+        Infinity
+      ],
+      "levels": [],
+      "bins": [
+        {
+          "code": "b0",
+          "label": "up to 1",
+          "lo": -Infinity,
+          "hi": 1.0,
+          "points": 37,
+          "default_rate_pct": 4.14,
+          "loans": 3695
+        },
+        {
+          "code": "b1",
+          "label": "1 to 2",
+          "lo": 1.0,
+          "hi": 2.0,
+          "points": 41,
+          "default_rate_pct": 5.69,
+          "loans": 1335
+        },
+        {
+          "code": "b2",
+          "label": "2 to 4",
+          "lo": 2.0,
+          "hi": 4.0,
+          "points": 41,
+          "default_rate_pct": 5.62,
+          "loans": 1370
+        },
+        {
+          "code": "b3",
+          "label": "over 4",
+          "lo": 4.0,
+          "hi": Infinity,
+          "points": 46,
+          "default_rate_pct": 8.27,
+          "loans": 992
+        }
+      ]
+    },
+    {
+      "name": "total_bal_il",
+      "kind": "numeric",
+      "edges": [
+        -Infinity,
+        6386.000000000002,
+        17256.2,
+        30306.0,
+        53179.8,
+        Infinity
+      ],
+      "levels": [],
+      "bins": [
+        {
+          "code": "b0",
+          "label": "up to 6,386",
+          "lo": -Infinity,
+          "hi": 6386.000000000002,
+          "points": 45,
+          "default_rate_pct": 3.11,
+          "loans": 1479
+        },
+        {
+          "code": "b1",
+          "label": "6,386 to 17,256",
+          "lo": 6386.000000000002,
+          "hi": 17256.2,
+          "points": 40,
+          "default_rate_pct": 5.21,
+          "loans": 1478
+        },
+        {
+          "code": "b2",
+          "label": "17,256 to 30,306",
+          "lo": 17256.2,
+          "hi": 30306.0,
+          "points": 38,
+          "default_rate_pct": 6.15,
+          "loans": 1479
+        },
+        {
+          "code": "b3",
+          "label": "30,306 to 53,180",
+          "lo": 30306.0,
+          "hi": 53179.8,
+          "points": 40,
+          "default_rate_pct": 5.21,
+          "loans": 1477
+        },
+        {
+          "code": "b4",
+          "label": "over 53,180",
+          "lo": 53179.8,
+          "hi": Infinity,
+          "points": 37,
+          "default_rate_pct": 6.56,
+          "loans": 1479
+        }
+      ]
+    },
+    {
+      "name": "term_months",
+      "kind": "categorical",
+      "edges": [],
+      "levels": [
+        "36",
+        "60"
+      ],
+      "bins": [
+        {
+          "code": "36",
+          "label": "36",
+          "lo": null,
+          "hi": null,
+          "points": 38,
+          "default_rate_pct": 4.55,
+          "loans": 5321
+        },
+        {
+          "code": "60",
+          "label": "60",
+          "lo": null,
+          "hi": null,
+          "points": 44,
+          "default_rate_pct": 7.05,
+          "loans": 2071
+        }
+      ]
+    },
+    {
+      "name": "total_il_high_credit_limit",
+      "kind": "numeric",
+      "edges": [
+        -Infinity,
+        12275.2,
+        26265.0,
+        42352.200000000004,
+        68911.8,
+        Infinity
+      ],
+      "levels": [],
+      "bins": [
+        {
+          "code": "b0",
+          "label": "up to 12,275",
+          "lo": -Infinity,
+          "hi": 12275.2,
+          "points": 46,
+          "default_rate_pct": 3.58,
+          "loans": 1479
+        },
+        {
+          "code": "b1",
+          "label": "12,275 to 26,265",
+          "lo": 12275.2,
+          "hi": 26265.0,
+          "points": 41,
+          "default_rate_pct": 4.94,
+          "loans": 1478
+        },
+        {
+          "code": "b2",
+          "label": "26,265 to 42,352",
+          "lo": 26265.0,
+          "hi": 42352.200000000004,
+          "points": 36,
+          "default_rate_pct": 6.83,
+          "loans": 1478
+        },
+        {
+          "code": "b3",
+          "label": "42,352 to 68,912",
+          "lo": 42352.200000000004,
+          "hi": 68911.8,
+          "points": 40,
+          "default_rate_pct": 5.14,
+          "loans": 1478
+        },
+        {
+          "code": "b4",
+          "label": "over 68,912",
+          "lo": 68911.8,
+          "hi": Infinity,
+          "points": 38,
+          "default_rate_pct": 5.75,
+          "loans": 1479
+        }
+      ]
+    },
+    {
+      "name": "open_il_6m",
+      "kind": "numeric",
+      "edges": [
+        -Infinity,
+        1.0,
+        2.0,
+        4.0,
+        Infinity
+      ],
+      "levels": [],
+      "bins": [
+        {
+          "code": "b0",
+          "label": "up to 1",
+          "lo": -Infinity,
+          "hi": 1.0,
+          "points": 37,
+          "default_rate_pct": 4.25,
+          "loans": 2779
+        },
+        {
+          "code": "b1",
+          "label": "1 to 2",
+          "lo": 1.0,
+          "hi": 2.0,
+          "points": 40,
+          "default_rate_pct": 5.29,
+          "loans": 1816
+        },
+        {
+          "code": "b2",
+          "label": "2 to 4",
+          "lo": 2.0,
+          "hi": 4.0,
+          "points": 42,
+          "default_rate_pct": 6.42,
+          "loans": 1683
+        },
+        {
+          "code": "b3",
+          "label": "over 4",
+          "lo": 4.0,
+          "hi": Infinity,
+          "points": 41,
+          "default_rate_pct": 5.92,
+          "loans": 1114
+        }
+      ]
+    },
+    {
+      "name": "emp_years",
+      "kind": "numeric",
+      "edges": [
+        -Infinity,
+        2.0,
+        5.0,
+        9.0,
+        Infinity
+      ],
+      "levels": [],
+      "bins": [
+        {
+          "code": "b0",
+          "label": "up to 2",
+          "lo": -Infinity,
+          "hi": 2.0,
+          "points": 35,
+          "default_rate_pct": 6.11,
+          "loans": 1670
+        },
+        {
+          "code": "b1",
+          "label": "2 to 5",
+          "lo": 2.0,
+          "hi": 5.0,
+          "points": 45,
+          "default_rate_pct": 4.46,
+          "loans": 1413
+        },
+        {
+          "code": "b2",
+          "label": "5 to 9",
+          "lo": 5.0,
+          "hi": 9.0,
+          "points": 41,
+          "default_rate_pct": 4.96,
+          "loans": 1229
+        },
+        {
+          "code": "b3",
+          "label": "over 9",
+          "lo": 9.0,
+          "hi": Infinity,
+          "points": 42,
+          "default_rate_pct": 4.82,
+          "loans": 2595
+        },
+        {
+          "code": "missing",
+          "label": "not stated",
+          "lo": null,
+          "hi": null,
+          "points": 29,
+          "default_rate_pct": 7.63,
+          "loans": 485
+        }
+      ]
+    },
+    {
+      "name": "instalment_to_income",
+      "kind": "numeric",
+      "edges": [
+        -Infinity,
+        0.0423,
+        0.0621,
+        0.0829,
+        0.113,
+        Infinity
+      ],
+      "levels": [],
+      "bins": [
+        {
+          "code": "b0",
+          "label": "up to 0.042",
+          "lo": -Infinity,
+          "hi": 0.0423,
+          "points": 37,
+          "default_rate_pct": 4.58,
+          "loans": 1484
+        },
+        {
+          "code": "b1",
+          "label": "0.042 to 0.062",
+          "lo": 0.0423,
+          "hi": 0.0621,
+          "points": 38,
+          "default_rate_pct": 4.81,
+          "loans": 1476
+        },
+        {
+          "code": "b2",
+          "label": "0.062 to 0.083",
+          "lo": 0.0621,
+          "hi": 0.0829,
+          "points": 38,
+          "default_rate_pct": 4.87,
+          "loans": 1477
+        },
+        {
+          "code": "b3",
+          "label": "0.083 to 0.113",
+          "lo": 0.0829,
+          "hi": 0.113,
+          "points": 40,
+          "default_rate_pct": 5.41,
+          "loans": 1478
+        },
+        {
+          "code": "b4",
+          "label": "over 0.113",
+          "lo": 0.113,
+          "hi": Infinity,
+          "points": 44,
+          "default_rate_pct": 6.58,
+          "loans": 1475
+        },
+        {
+          "code": "missing",
+          "label": "not stated",
+          "lo": null,
+          "hi": null,
+          "points": 62,
+          "default_rate_pct": 0.0,
+          "loans": 2
+        }
+      ]
+    },
+    {
+      "name": "num_il_tl",
+      "kind": "numeric",
+      "edges": [
+        -Infinity,
+        3.0,
+        5.0,
+        8.0,
+        13.0,
+        Infinity
+      ],
+      "levels": [],
+      "bins": [
+        {
+          "code": "b0",
+          "label": "up to 3",
+          "lo": -Infinity,
+          "hi": 3.0,
+          "points": 41,
+          "default_rate_pct": 4.16,
+          "loans": 1825
+        },
+        {
+          "code": "b1",
+          "label": "3 to 5",
+          "lo": 3.0,
+          "hi": 5.0,
+          "points": 39,
+          "default_rate_pct": 6.0,
+          "loans": 1233
+        },
+        {
+          "code": "b2",
+          "label": "5 to 8",
+          "lo": 5.0,
+          "hi": 8.0,
+          "points": 40,
+          "default_rate_pct": 5.2,
+          "loans": 1578
+        },
+        {
+          "code": "b3",
+          "label": "8 to 13",
+          "lo": 8.0,
+          "hi": 13.0,
+          "points": 40,
+          "default_rate_pct": 5.41,
+          "loans": 1405
+        },
+        {
+          "code": "b4",
+          "label": "over 13",
+          "lo": 13.0,
+          "hi": Infinity,
+          "points": 39,
+          "default_rate_pct": 5.92,
+          "loans": 1351
+        }
+      ]
+    }
+  ],
+  "factor": 28.85390081777927,
+  "offset": 513.5614381022527,
+  "cutoff": 587,
+  "bands": {
+    "edges": [
+      572.0,
+      587.0,
+      607.0
+    ],
+    "names": [
+      "D. decline or reprice",
+      "C. refer to an officer",
+      "B. approve",
+      "A. approve and pre-approve more"
+    ]
+  }
+}
