@@ -1,0 +1,24 @@
+feature,information_value,strength
+grade,0.7667,strong
+open_il_12m,0.1695,medium
+verification_status,0.1261,medium
+open_il_24m,0.1251,medium
+all_util,0.0807,weak
+inq_fi,0.0778,weak
+inq_last_6mths,0.0739,weak
+inq_last_12m,0.0703,weak
+total_bal_il,0.0647,weak
+term_months,0.0474,weak
+total_il_high_credit_limit,0.0468,weak
+open_il_6m,0.0311,weak
+emp_years,0.0277,weak
+instalment_to_income,0.0205,weak
+num_il_tl,0.02,weak
+annual_inc,0.0189,no use
+emp_known,0.0144,no use
+loan_to_income,0.013,no use
+revol_util,0.0103,no use
+funded_amnt,0.002,no use
+delinq_2yrs,0.0,no use
+acc_now_delinq,0.0,no use
+delinq_amnt,0.0,no use

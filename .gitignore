@@ -8,3 +8,5 @@ data/lending_club_raw.csv
 data/loans.db
 outputs/model.joblib
 outputs/test_scores.npz
+outputs/charts/
+outputs/profit_curve.csv

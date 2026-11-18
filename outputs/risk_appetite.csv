@@ -1,0 +1,5 @@
+target_default_rate_pct,cutoff,approval_rate_pct,realised_default_rate_pct,profit
+2.0,598,61.7,1.97,1465333
+3.0,587,75.7,3.0,2187683
+4.0,569,91.0,3.97,3586100
+5.0,557,96.7,4.99,3776398

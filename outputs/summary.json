@@ -1,0 +1,71 @@
+{
+  "rows": 9857,
+  "train": 7392,
+  "test": 2465,
+  "book_default_rate": 0.0525,
+  "metrics": [
+    {
+      "model": "Lender's own grade",
+      "test_auc": 0.7301,
+      "gini": 0.4603,
+      "ks": 0.3334,
+      "cv_auc_train": ""
+    },
+    {
+      "model": "Scorecard, no grade",
+      "test_auc": 0.6636,
+      "gini": 0.3272,
+      "ks": 0.2345,
+      "cv_auc_train": "0.6717 +/- 0.0352"
+    },
+    {
+      "model": "Scorecard with grade",
+      "test_auc": 0.7467,
+      "gini": 0.4934,
+      "ks": 0.4182,
+      "cv_auc_train": "0.7490 +/- 0.0324"
+    },
+    {
+      "model": "Gradient boosting",
+      "test_auc": 0.721,
+      "gini": 0.442,
+      "ks": 0.4052,
+      "cv_auc_train": ""
+    }
+  ],
+  "chosen_model": "Scorecard with grade",
+  "features_kept_without_grade": [
+    "open_il_12m",
+    "verification_status",
+    "open_il_24m",
+    "all_util",
+    "inq_fi",
+    "inq_last_6mths",
+    "inq_last_12m",
+    "total_bal_il",
+    "term_months",
+    "total_il_high_credit_limit",
+    "open_il_6m",
+    "emp_years",
+    "instalment_to_income",
+    "num_il_tl"
+  ],
+  "profit_optimal_cutoff": 518,
+  "profit_optimal_approval_rate": 1.0,
+  "profit_approve_all": 4174163,
+  "break_even_default_prob": 0.1604,
+  "share_above_break_even": 0.045,
+  "policy_cutoff": 587,
+  "policy_approval_rate": 0.757,
+  "policy_default_rate": 0.03,
+  "assumptions": {
+    "lgd": 0.65,
+    "cost_of_funds": 0.05,
+    "servicing": 0.01,
+    "avg_balance": 0.55,
+    "interest_realised": 1.0,
+    "pdo": 20,
+    "base_score": 600,
+    "base_odds": 20
+  }
+}

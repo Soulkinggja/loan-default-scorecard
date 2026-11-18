@@ -1,0 +1,5 @@
+model,test_auc,gini,ks,cv_auc_train
+Lender's own grade,0.7301,0.4603,0.3334,
+"Scorecard, no grade",0.6636,0.3272,0.2345,0.6717 +/- 0.0352
+Scorecard with grade,0.7467,0.4934,0.4182,0.7490 +/- 0.0324
+Gradient boosting,0.721,0.442,0.4052,
