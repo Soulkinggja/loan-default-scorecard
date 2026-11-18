@@ -6,8 +6,6 @@ approve, and what does a tighter loss target cost us in volume?**
 
 **Live tool: https://loan-scorecard.streamlit.app**
 
-![The decision tool](screenshot.png)
-
 ## The short version
 
 | | |
